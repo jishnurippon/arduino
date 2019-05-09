@@ -9,7 +9,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   Serial.println(analogRead(A0));
   delay(5);
-  /*if(analogRead(A0)<1000)
+  /*if(analogRead(A0)<5000)
   {
     digitalWrite(D4,LOW);
     delay(2000);
